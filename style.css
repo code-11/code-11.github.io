@@ -46,7 +46,7 @@ section p{
 /*	float:right;
 */	display: inline-block;
 	font-size: min(4vw, 20pt);
-	width: 400px;
+	width: 600px;
 /*	width:50%;*/
 	vertical-align: top;
 	flex-grow:1;
@@ -60,7 +60,7 @@ section p{
 }
 
 .profsite-header{
-	width:70%;
+	width:75%;
 	margin:auto;
 	padding:10px;
 	background-color:#009688;
@@ -76,7 +76,7 @@ section p{
 /*For Desktop*/
 @media screen and (min-width: 600px) {
 	.profsite-bulk{
-		width:70%;
+		width:75%;
 		margin:auto;
 	}
 }
@@ -115,25 +115,6 @@ section p{
 	flex-direction: row;
 	align-items: flex-end;
 }
-
-#email-hint{
-	visibility: hidden;
-	position: absolute;
-	background-color:white;
-    top: 50%;
-    left: 50%;
-    height: 20%;
-    width: 50%;
-    margin: -10% 0 0 -25%;
-}
-
-#email-reveal{
-	position: relative;
-}
-
-#email-reveal:hover > #email-hint{
-	visibility: visible;
-} 
 
 #old-site-section{
 	text-align: center;
