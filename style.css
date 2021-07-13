@@ -9,7 +9,7 @@ header h1{
 	font-size:6vw;
 }
 section h1{
-	font-size:min(4vw,25pt);
+	font-size:min(5vw,25pt);
 	border-bottom: 5px solid black;
 	margin-bottom: 20px;
 }
@@ -39,7 +39,7 @@ section p{
 .profsite-about-not-img{
 /*	float:right;
 */	display: inline-block;
-	font-size: min(3vw, 20pt);
+	font-size: min(4vw, 20pt);
 	width:50%;
 	vertical-align: top;
 }
@@ -83,15 +83,15 @@ section p{
 }
 
 .profsite-contact h2{
-	font-size: min(3vw, 1.5em);
+	font-size: min(4vw, 1.5em);
 }
 
 .project-group h2{
-	font-size: min(3vw, 1.5em);
+	font-size: min(4vw, 1.5em);
 }
 
 .project-group p{
-	font-size: min(2vw,1em);
+	font-size: min(3vw,1em);
 }
 
 #contacts-box{
