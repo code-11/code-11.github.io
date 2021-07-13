@@ -30,19 +30,35 @@ section p{
 	color: #029688;
 }
 
+#about-section{
+	display: flex;
+	flex-direction: row;
+}
+
 .profsite-about-img{
 /*	float:left;
 */	display: inline-block;
-	width:45%;
+	max-width: 400px;
 	margin-right: 3%;
+	flex-grow:1;
 }
 .profsite-about-not-img{
 /*	float:right;
 */	display: inline-block;
 	font-size: min(4vw, 20pt);
-	width:50%;
+	width: 400px;
+/*	width:50%;*/
 	vertical-align: top;
+	flex-grow:1;
 }
+/*For Phones*/
+@media screen and (max-width: 600px) {
+	.profsite-about-not-img{
+		margin-top:20px;
+		width:100%;
+	}
+}
+
 .profsite-header{
 	width:70%;
 	margin:auto;
@@ -54,7 +70,7 @@ section p{
 @media screen and (max-width: 600px) {
 	.profsite-header{
 		font-size:10vw;
-		width:100%; 
+		width:95%; 
 	}
 }
 /*For Desktop*/
@@ -67,7 +83,7 @@ section p{
 /*For Phones*/
 @media screen and (max-width: 600px) {
 	.profsite-bulk{
-		width:100%;
+		width:95%;
 		margin:auto;
 	}
 }
